@@ -8,7 +8,6 @@ A playground to play with:
 - React
 - React router dom
 - Typescript
-- Axios
 - Tanstack Query
 - React Hook Form
 - Tailwind
