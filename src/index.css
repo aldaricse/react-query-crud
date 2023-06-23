@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+  font-family: Raleway, sans-serif;
+}
+
+@layer base {
+  body{
+    @apply bg-gray-100 tracking-wide
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold uppercase;
+  }
+
+  h1 {
+    @apply text-2xl 2xl:text-3xl;
+  }
+
+  h2 {
+    @apply text-xl 2xl:text-2xl;
+  }
+
+  input, select, textarea {
+    @apply focus:outline-none border-[2px] focus:border-gray-700;
+  }
+
+  span[role=alert]{
+    @apply text-red-500 text-left w-full block px-2 pt-1
+  }
+}
